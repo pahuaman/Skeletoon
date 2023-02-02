@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top, .down {
+    display: flex;
+    justify-content: space-between;
+    padding: .9%;
+    margin: auto;
+}
+
+.left, .right { border: 1px dotted #000; }
+
+.over-center, .center .tem { padding: .9% 3%; }
+
+.center { padding: 6%; }
+
+.center .tem { display: flex; justify-content: space-between; }
+
+.center .tem .inter th, td {
+    border:1px solid #ddd;
+    padding: 10px;
+    padding-top: 8px;    
+    padding-bottom: 8px;
+ }
+
+ /*probar solo con .center .inter */
